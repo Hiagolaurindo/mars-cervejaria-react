@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Comfortaa&family=Poppins:wght@300;400;500;600&family=Quicksand&display=swap');
+
+@keyframes container{
+    from{
+        top: -800px;
+        opacity: 0%;
+    }
+    to{
+        top: 0px;
+        opacity: 100%;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes cabecalho{
+    from{
+        left: -800px;
+        opacity: 0%;
+    }
+    to{
+        left: 0px;
+        opacity: 100%;
+    }
+}
+
+@keyframes yellow-txt{
+    from{
+        left: -800px;
+        opacity: 0%;
+    }
+    to{
+        left: 0px;
+        opacity: 100%;
+    }
+}
+
+@keyframes gradiente{
+    0%{
+        background: #FFA800;
+    }
+    25%{
+        background: #ff8800;
+    }
+    50%{
+        background: #ff6600;
+    }
+
+    75%{
+        background: #ffa600;
+    }
+
+    100%{
+        background: #FFA800;
+    }
+}
+
+@keyframes sol{
+    0%{
+        left: 1500px;
+        rotate: 2000deg;
+        scale: 0;
+    }
+
+    50%{
+        rotate: 1000deg;
+        scale: 2;
+    }
+
+    100%{
+        left: -300px;
+        rotate: 0deg;
+        scale: 0;
+    }
+}
+
+@keyframes particulas{
+    0%{
+        top: 0px;
+    }
+    25%{
+        top: 30px;
+    }
+    50%{
+        top: 50px;
+    }
+    75%{
+        top: 30px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+
+.particulas{
+    position: absolute;
+    left: 750px;
+    animation: particulas 7s infinite;
+    transition: 0.5s;
+    z-index: -100;
+    opacity: 40%;
+}
+
+hr{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    border: none;
+}
+
+.text-fot{
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    z-index: 5;
+}
+
+.sol{
+    left: -500px;
+    position: absolute;
+    z-index: -6;
+    padding: 20px;
+    animation: sol 15s;
+    scale: -1;
+}
+
+body{
+    background: linear-gradient(316.12deg, #FFA800 59.23%, #FF2525 116.27%);
+    font-family: 'Poppins', sans-serif;
+    animation: gradiente 7s infinite;
+    transition: 1.5s;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
