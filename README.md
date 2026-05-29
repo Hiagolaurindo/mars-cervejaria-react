@@ -84,7 +84,7 @@ mars-cervejaria-react/
 
 ### Teste 1: Login Bem-sucedido
 1. Acesse a página
-2. Digite: `admin@mars.com` / `123456`
+2. Digite: `admin@gmail.com` / `123456`
 3. Clique em "Entrar"
 4. ✅ Redirecionado para a página inicial
 
