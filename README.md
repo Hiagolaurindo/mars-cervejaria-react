@@ -25,9 +25,9 @@ npm run build
 
 | E-mail | Senha |
 |--------|-------|
-| `admin@mars.com` | `123456` |
-| `usuario@mars.com` | `senha123` |
-| `teste@mars.com` | `teste123` |
+| `admin@gmail.com` | `123456` |
+| `usuario@gmail.com` | `senha123` |
+| `teste@gmail.com` | `teste123` |
 
 ## 📁 Estrutura do Projeto
 
@@ -131,5 +131,5 @@ Após a Parte 1, você precisará implementar:
 
 ---
 
-**Desenvolvido para Avaliação N2 - Projeto React**
-**Maio de 2026**
+
+
