@@ -108,24 +108,11 @@ mars-cervejaria-react/
 | Proteção de rotas | 0,1 | ✅ |
 | **TOTAL** | **0,5** | **✅ COMPLETO** |
 
-## 🔧 Tecnologias Utilizadas
 
-- **React 18** - Biblioteca UI
-- **React Router 6** - Navegação
-- **Vite** - Build tool
-- **CSS3** - Estilos
-- **localStorage** - Persistência de dados
-
-## 📝 Notas
-
-- Este é um sistema educacional
-- As credenciais estão no código (não use em produção)
-- localStorage não é seguro (apenas para demo)
-- Sempre valide no backend em produção
 
 ## 🎓 Próximas Etapas
 
-Após a Parte 1, você precisará implementar:
+Após a Parte 1, precisará implementar:
 - **Parte 2:** 3 CRUDs (1,5 pontos)
 - **Parte 3:** Relatório com JOIN (0,5 pontos)
 
