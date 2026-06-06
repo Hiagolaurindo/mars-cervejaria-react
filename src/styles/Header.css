@@ -3,34 +3,32 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px 5%;
+    padding: 24px;
     animation-name: cabecalho;
     animation-duration: 3s;
     position: relative;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 .cabecalho-img {
     height: 72px;
-    width: auto;
-    object-fit: contain;
+    padding-right: 800px;
 }
 
 .cabecalho-txt {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     align-items: center;
-} 
+}
 
 .cabecalho-txt-it {
+    font-weight: 700;
     color: rgb(255, 255, 255);
     letter-spacing: 0.025em;
+    line-height: 42px;
     text-decoration: none;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 25px;
     transition: all 0.3s ease;
-    white-space: nowrap;
 }
 
 .cabecalho-txt-it:hover {
@@ -70,34 +68,25 @@
     transform: scale(1.05);
 }
 
-@media (max-width: 992px) {
-    .cabecalho {
-        flex-direction: column; /* No tablet/celular, empilha tudo verticalmente */
-        gap: 15px;
-        text-align: center;
+@media (max-width: 768px) {
+    .cabecalho-img {
+        padding-right: 0;
     }
 
     .cabecalho-txt {
-        flex-wrap: wrap; /* Se os links não couberem na horizontal, eles quebram linha suavemente */
-        justify-content: center;
-        gap: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .cabecalho-txt-it {
-        font-size: 18px; /* Diminui um pouco a fonte no celular */
+        flex-direction: column;
+        gap: 10px;
     }
 
     .user-info {
         flex-direction: column;
         gap: 8px;
         margin-left: 0;
-        align-items: center;
+        padding-left: 0;
+        align-items: flex-start;
     }
 
     .logout-btn {
         width: 100%;
     }
 }
-

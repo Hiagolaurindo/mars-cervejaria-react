@@ -10,6 +10,10 @@ import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Contacts } from './pages/Contacts'
 import { Buy } from './pages/Buy'
+import { Clientes } from './pages/crud/Clientes'
+import { Cervejas } from './pages/crud/Cervejas'
+import { Pedidos } from './pages/crud/Pedidos'
+import { Relatorio } from './pages/Relatorio'
 import './styles/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -24,6 +28,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/sobre" element={<ProtectedRoute><About /></ProtectedRoute>} />
           <Route path="/contatos" element={<ProtectedRoute><Contacts /></ProtectedRoute>} />
           <Route path="/adquira" element={<ProtectedRoute><Buy /></ProtectedRoute>} />
+          <Route path="/clientes" element={<ProtectedRoute><Clientes /></ProtectedRoute>} />
+          <Route path="/cervejas" element={<ProtectedRoute><Cervejas /></ProtectedRoute>} />
+          <Route path="/pedidos" element={<ProtectedRoute><Pedidos /></ProtectedRoute>} />
+          <Route path="/relatorio" element={<ProtectedRoute><Relatorio /></ProtectedRoute>} />
         </Routes>
       </AuthProvider>
     </BrowserRouter>

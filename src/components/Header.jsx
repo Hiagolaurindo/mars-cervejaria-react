@@ -24,6 +24,10 @@ export const Header = () => {
             <Link className="cabecalho-txt-it" to="/sobre">SOBRE A MARS |</Link>
             <Link className="cabecalho-txt-it" to="/contatos">CONTATOS |</Link>
             <Link className="cabecalho-txt-it" to="/adquira">ADQUIRA A SUA |</Link>
+            <Link className="cabecalho-txt-it" to="/clientes">CLIENTES |</Link>
+            <Link className="cabecalho-txt-it" to="/cervejas">CERVEJAS |</Link>
+            <Link className="cabecalho-txt-it" to="/pedidos">PEDIDOS |</Link>
+            <Link className="cabecalho-txt-it" to="/relatorio">RELATÓRIO |</Link>
             <div className="user-info">
               <span className="user-email">{user.email}</span>
               <button className="logout-btn" onClick={handleLogout}>Sair</button>
